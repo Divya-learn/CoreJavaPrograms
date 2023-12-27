@@ -19,7 +19,7 @@ public class Lab007_Operator {
         String sentence2 = "Book";
         System.out.println(sentence + sentence2);
 
-        //Important concept
+        //Important concept interview ques:
 
         int n1 = 30 , n2 = 40;
         String name ="Jeni";
