@@ -1,6 +1,6 @@
 package src.basic004;
 
-public class Lab024_Conditionsandloop {
+public class Lab024_Conditionsif {
 
     public static void main(String[] args)
     {
