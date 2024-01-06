@@ -4,20 +4,19 @@ public class Lab050_Loopprograms {
 
     public static void main(String[] args)
     {
-     /*   System.out.println("Print the value of i and I want to break when i==5");
+        System.out.println("Print the value of i and I want to break when i==5");
         for(int i=1;i<=10;i++)
         {
             System.out.println("value of i " + i);
-            if(i==5)
-             //   System.out.println("Divya");
+           if(i==5)
                 break;
-            System.out.println(i);
+         //  System.out.println("Hi");
         }
-        System.out.println("Hi");
+        System.out.println("Hello");
 
-      */
 
-      for(int i=0;i<10;i++)
+
+ /*     for(int i=0;i<10;i++)
       {
           System.out.println("Value of i "+i); //print 1 to 10
       }
@@ -36,7 +35,7 @@ public class Lab050_Loopprograms {
             System.out.println("Value of i "+i); //print 1 to 10
         }
 
-
+*/
 
     }
 }
