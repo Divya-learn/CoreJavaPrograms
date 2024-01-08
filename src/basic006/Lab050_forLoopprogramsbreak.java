@@ -1,6 +1,6 @@
 package src.basic006;
 
-public class Lab050_Loopprograms {
+public class Lab050_forLoopprogramsbreak {
 
     public static void main(String[] args)
     {
@@ -8,8 +8,9 @@ public class Lab050_Loopprograms {
         for(int i=1;i<=10;i++)
         {
             System.out.println("value of i " + i);  // 1 hi ,2 hi,3 hi,4 hi,5, hello
-           if(i==5)
-                break;
+           if(i==5) {
+               break;
+           }
            System.out.println("Hi");
         }
         System.out.println("Hello");
