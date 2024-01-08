@@ -41,5 +41,11 @@ public class Lab038_Loops_for {
             System.out.println("Hello World");
         }
 */
+        //print reverse order 10 to 1
+        for(int i=10; i>0;i--)
+        {
+            System.out.println(i);
+        }
+
     }
 }
