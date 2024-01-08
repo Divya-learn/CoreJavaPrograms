@@ -1,6 +1,6 @@
 package src.basic006;
 
-public class Lab052_Forloopinterview {
+public class Lab052_ForloopinterviewBreakstatemet {
 
     public static void main(String[] args) {
         //break.... in for loop  come out from the current loop
@@ -22,7 +22,7 @@ public class Lab052_Forloopinterview {
                                                 break;
          */
 
-   /*     int i;
+        int i;
         for (i = 0; i < 10; i++) {
             //   System.out.println(i);
             break;
@@ -30,10 +30,11 @@ public class Lab052_Forloopinterview {
         System.out.println(i);
 
         for (int k = 0; k < 10; k++) {
+
             break;
             //  System.out.println(k); //this statement is unreachable
         }
-*/
+
 
         int j;
         for (j = 1; j < 10; j++) {
