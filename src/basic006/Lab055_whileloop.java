@@ -1,6 +1,6 @@
 package src.basic006;
 
-public class Lab056_whileloop {
+public class Lab055_whileloop {
 
     public static void main(String[] args)
     {
