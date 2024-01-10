@@ -6,7 +6,7 @@ public class Lab059_Arrayconceptbasic {
     {
         //we can initialize the array two types
 
-       int[] marks = {56,77,89,45,67,89,34};
+   /*    int[] marks = {56,77,89,45,67,89,34};
 
         marks[1] =9;  //we can change the value of array
 
@@ -52,7 +52,7 @@ public class Lab059_Arrayconceptbasic {
         for(int i=0; i<words.length;i++)
         {
             System.out.println(words[i]);
-        }
+        } */
 
         final String[] sen = {"milk", "butter", "coke"};
 
