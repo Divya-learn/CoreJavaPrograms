@@ -2,7 +2,7 @@ package src.Programs;
 
 import java.util.Scanner;
 
-public class E3_Takeinputfromuserbyarray {
+public class E5_Takeinputfromuserbyarray {
 
     public static void main(String[] args)
     {
