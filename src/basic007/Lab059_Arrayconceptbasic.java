@@ -1,12 +1,14 @@
 package src.basic007;
 
+import java.util.Scanner;
+
 public class Lab059_Arrayconceptbasic {
 
     public static  void main(String[] args)
     {
         //we can initialize the array two types
 
-   /*    int[] marks = {56,77,89,45,67,89,34};
+ /*    int[] marks = {56,77,89,45,67,89,34};
 
         marks[1] =9;  //we can change the value of array
 
@@ -52,7 +54,7 @@ public class Lab059_Arrayconceptbasic {
         for(int i=0; i<words.length;i++)
         {
             System.out.println(words[i]);
-        } */
+        }
 
         final String[] sen = {"milk", "butter", "coke"};
 
@@ -64,11 +66,32 @@ public class Lab059_Arrayconceptbasic {
             System.out.println(sen[i]);
         }
 
-
-
-
         final String sen2 = "car";
-      //  sen2 = "Bike";   //cant change a value from car to bike because sen2 =caris final variable
+        //  sen2 = "Bike";   //cant change a value from car to bike because sen2 =caris final variable
+*/
+
+        //Taking input from user by array
+
+        Scanner sc = new Scanner(System.in);
+
+        int num = sc.nextInt();
+
+        int[] array = new int[num];
+
+        for(int i=0; i<num;i++)
+        {
+            array[i] = sc.nextInt();
+        }
+
+        for(int i=0; i<num;i++)
+        {
+            System.out.println(array[i]);
+        }
+
+
+
+
+
 
     }
 }
