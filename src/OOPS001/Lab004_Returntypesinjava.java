@@ -7,10 +7,13 @@ public class Lab004_Returntypesinjava {
         demo("Divya");
 
         int d = demo(5, 6);
-        System.out.println(d);
+        System.out.println("Prmitive type is " +d);
 
         float d1 = demo(5, 6);
-        System.out.println(d1);
+        System.out.println("Primitive type is "+d1);
+
+        String f1 = demo2("My");
+        System.out.println("Reference type is "+f1);
     }
 
     //void --> does not return anything
@@ -41,6 +44,11 @@ public class Lab004_Returntypesinjava {
     static String demo1()
     {
         return "Hi";
+    }
+
+    static String demo2(String a)
+    {
+        return a+ "car";
     }
 
 }

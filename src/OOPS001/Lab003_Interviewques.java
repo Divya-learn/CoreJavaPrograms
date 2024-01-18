@@ -12,7 +12,7 @@ public class Lab003_Interviewques {
         main(10);
     }
 
-    public static void main(int a) //we can have same method name but different arguments
+    static void main(int a) //we can have same method name but different arguments
     {
         System.out.println("void o/p is" + a);
     }
