@@ -14,6 +14,8 @@ public class Runnerclass {
         // p     --> ref variable
         // new Person()  --> object
 
+        p.sleep();
+
 
     }
 }
