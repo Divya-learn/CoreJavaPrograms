@@ -68,6 +68,27 @@ public class C1_stringmethods {
 
         //equals()   , equalsIgnoreCase()    --> compare strings
 
+        //replace() --> replace single/multiple(sequence) of characters in a string
+        String a1 ="Hello I am divya";
+        System.out.println(a1.replace('l','q'));
+        System.out.println(a1.replace("divya","Sabari"));
+
+        String a2 = "aabbccwwkk";  // want to replace w --> g  b--> m
+        System.out.println(a2.replace('w','g').replace('b','m'));
+
+
+        //substring -->extract substring from the main string
+        String a3 ="Kaaleeshwari";
+        System.out.println(a3.substring(0,1));  // w
+        System.out.println(a3.substring(5,9));  //eshw      5--> starting index 9--> ending index
+        System.out.println(a3.substring(2,5));  //ale
+             /*
+                0 1 2 3 4 5 6 7 8  9 10 11   -->starting index
+                K a a l e e s h w  a  r  i
+                1 2 3 4 5 6 7 8 9 10 11 12   -->ending index
+              */
+
+
 
 
 
