@@ -2,7 +2,7 @@ package src.OOPS002class_object;
 
 public class Methods {
 
-    static void hello() {
+     void hello() {
         System.out.println("sayhello");
     }
 

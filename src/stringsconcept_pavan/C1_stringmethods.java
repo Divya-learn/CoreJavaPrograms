@@ -1,5 +1,7 @@
 package src.stringsconcept_pavan;
 
+import java.util.Arrays;
+
 public class C1_stringmethods {
 
     public static void main(String[] args)
@@ -87,6 +89,45 @@ public class C1_stringmethods {
                 K a a l e e s h w  a  r  i
                 1 2 3 4 5 6 7 8 9 10 11 12   -->ending index
               */
+
+        //touppercase()      tolowercase()
+        String a4 ="How are you?";
+        System.out.println(a4.toUpperCase());
+        System.out.println(a4.toLowerCase());
+
+        //split() --split the string into multiple parts based on delimeter
+        // * , %, ^, &, (, )   cannot be used as delimeter
+        String e1 = "abc@gmail.com";
+        String a[] =e1.split("@");
+        System.out.println(Arrays.toString(a));  //[abc, gmail.com]
+
+        System.out.println(a[0]); //abc
+        System.out.println(a[1]); //gmail.com
+
+        String e2 = "abc,123@xyz";    //o/p should be  abc 123 xyz
+        String c1[] =e2.split(",");
+        System.out.println(Arrays.toString(c1)); // [abc, 123@xyz]
+        String c2[] = c1[1].split("@");
+        System.out.println(Arrays.toString(c2)); // [123,xyz]
+
+        System.out.println(c1[0]);
+        System.out.println(c2[0]);
+        System.out.println(c2[1]);
+
+        String c3 = "abc 123";
+        String[] c5 =c3.split(" ");
+        System.out.println(c5);
+
+        //replace
+
+        String d1 = "$15,20,24";   //o/p should be 152024
+        System.out.println(d1.replace("$","").replace(",",""));
+
+        String d2 = " 23$"; //o/p should be 23
+        System.out.println(d2.replace(" ","").replace("$",""));
+
+
+
 
 
 
