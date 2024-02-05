@@ -1,4 +1,4 @@
-package src.OOPS003Constructor;
+package src.oops003Constructor;
 
 import java.util.Scanner;
 

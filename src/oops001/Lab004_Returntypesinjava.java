@@ -1,4 +1,4 @@
-package src.OOPS001;
+package src.oops001;
 
 public class Lab004_Returntypesinjava {
 

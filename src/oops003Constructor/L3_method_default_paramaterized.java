@@ -1,4 +1,4 @@
-package src.OOPS003Constructor;
+package src.oops003Constructor;
 
 public class L3_method_default_paramaterized {
     String name;

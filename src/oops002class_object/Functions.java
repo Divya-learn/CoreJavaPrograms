@@ -1,4 +1,4 @@
-package src.OOPS002class_object;
+package src.oops002class_object;
 
 public class Functions {
 
