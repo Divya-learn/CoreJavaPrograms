@@ -1,4 +1,4 @@
-package src.oops004_Inheritance;
+package src.oops004_singleInheritance;
 
 public class L1_single_runner_class {
 

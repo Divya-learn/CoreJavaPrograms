@@ -1,4 +1,4 @@
-package src.oops004_Inheritance;
+package src.oops004_singleInheritance;
 
 public class L1_single_inheri_Programming extends L1_single_inheri_Python{
 
