@@ -4,7 +4,7 @@ public class L1_single_runner_class {
 
     public static void main(String[] args) {
 
-        //Child class with child object --> able to access all the method and variables in parent and class
+ /*       //Child class with child object --> able to access all the method and variables in parent and class
          L1_single_inheri_Programming p1 = new L1_single_inheri_Programming();
      //   L1_single_inheri_Programming p2 = new L1_single_inheri_Programming("abc",1);
        // L1_single_inheri_Python p3 = new L1_single_inheri_Python(1999);
@@ -19,7 +19,7 @@ public class L1_single_runner_class {
 
         //child reference with parent object --> cannot be used error comes child reference cannot have parent object
         //L1_single_inheri_Programming c1 = new L1_single_inheri_Python();
-
+*/
 
        //parent class with child object --> only able to use parent metods and variables
         L1_single_inheri_Python c2 = new L1_single_inheri_Programming(); //execution 1st go to child(L1_single_inheri_Programming) extends
