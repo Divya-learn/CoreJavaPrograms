@@ -19,4 +19,7 @@ public class L1_single_inheri_Programming extends L1_single_inheri_Python{
         System.out.println("Author"+this.Author+" "+ "version"+this.version);
     }
 
+    public void hello() {
+        print();
+    }
 }

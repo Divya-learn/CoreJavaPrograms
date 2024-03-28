@@ -4,6 +4,7 @@ public class L1_single_inheri_Python {
 
     int foundedyear;
     public L1_single_inheri_Python()
+
     {
         System.out.println("I am parent DC");
     }
@@ -12,7 +13,7 @@ public class L1_single_inheri_Python {
         this.foundedyear = ref_foundedyear;
     }
 
-    void print()
+   public void print()
     {
         System.out.println("year"+this.foundedyear);
     }
